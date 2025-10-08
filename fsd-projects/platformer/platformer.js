@@ -26,11 +26,11 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
-    // TODO 1 - Enable the Grid
-    // toggleGrid();
+    // TODO 1 - Platforms
+    createPlatform()
 
 
-    // TODO 2 - Create Platforms
+    // TODO 2 - Create Collectbales
 
 
 
