@@ -38,7 +38,9 @@ $(function () {
   createPlatform(550, 400, 150, 10);
 
     // TODO 3 - Create Collectables
-
+createCollectable("steve", 600, 500);//
+createCollectable("max", 300, 400);//
+createCollectable("diamond", 400, 200);//
 
 
     
