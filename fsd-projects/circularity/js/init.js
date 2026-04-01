@@ -21,7 +21,7 @@ var init = function (window) {
         
         // TODO 1 : Declare and initialize our variables
         var circle
-        var circle = [ ]
+        var circles = []
 
 
 
@@ -32,7 +32,7 @@ var init = function (window) {
               physikz.addRandomVelocity(circle, canvas, 2, 2);
 
               view.addChild(circle);
-             circle.push(circle);
+             circles.push(circle);
 
        
         }
@@ -121,7 +121,7 @@ var init = function (window) {
         app.addUpdateable(fps);
         
         game.circle = circle;
-        game.circles = circles;
+        game.circles = circle;
         game.drawCircle = drawCircle;
         game.update = update;
         
